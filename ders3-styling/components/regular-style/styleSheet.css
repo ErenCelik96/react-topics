@@ -1,0 +1,19 @@
+.logo {
+    width: 200px;
+}
+
+h1 {
+    color: purple;
+}
+
+.primary {
+    color:salmon;
+}
+
+.secondary {
+    color:seagreen;
+}
+
+.primary:hover{
+    font-size: 1.5rem;
+}

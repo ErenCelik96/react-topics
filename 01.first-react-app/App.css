@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

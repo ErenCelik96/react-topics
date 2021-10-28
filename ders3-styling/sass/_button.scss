@@ -1,0 +1,21 @@
+.button-container {
+    display:flex;
+    justify-content: center;
+
+    .button {
+        border-radius:5px;
+        color:#fff;
+    }
+
+    &--{//şuan & button-container oluyor (parent)
+        &small{//& = button-container--
+            background-color:$primaryTextColor;
+            padding: 5px;
+        }
+        &large {
+            background-color:$secondaryTextColor;
+            padding: 10px 15px;
+            margin-left: 10px;
+        }
+    }
+}
